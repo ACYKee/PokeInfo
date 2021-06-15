@@ -1,0 +1,212 @@
+
+#loca{
+  height:300px;
+  width:25%;
+  border:2px solid #ccc;
+  font:16px/26px "teko", Garamond, Serif;
+  overflow:auto;
+  font-size:20px;
+  border-radius:10px;  
+  border-color:black;
+}
+#moves{
+  height:300px;
+  width:25%;
+  border:2px solid #ccc;
+  font:16px/26px "teko", Garamond, Serif;
+  overflow:auto;
+  font-size:20px;
+    border-radius:10px; 
+  border-color:black;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#info{
+  border-style:solid;
+  border-width:5px;
+  border-radius:14px;
+  padding:50px;
+  margin:auto;
+}
+#big{
+   max-width: 100%; 
+  height: auto;
+  float:right;
+  margin-right:5%;
+}
+body{
+  background-color:black;
+}
+p{
+  font-size:25px;
+}
+h1{
+  text-align:center;
+    color:beige;
+  font-size:40px;
+}
+#name{
+  text-align:center;
+  font-size:70px;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+h2{
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+#text{
+  border-style:none;
+  border-radius:14px;
+  padding:5px;
+}
+#search{
+  float:right;
+  text-align:center;
+  width:50%;
+  display:block;
+   border-radius: 30px 30px 30px 30px;
+  padding: 10px;
+  font-size:20px;
+  margin-right:24%;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+a{
+  text-decoration:none;
+  color:blue;
+}
+.buttons{
+  text-align: center;
+  padding:25px;
+}
+#button{
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-right:5px;
+    border-radius:20px;
+  width:15%;
+  height:10%;
+   transition-duration: 0.4s;
+  min-width:200px;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+#button:hover{
+  background-color:white;
+  color: grey;
+}
+#button2{
+ background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-right:5px;
+  border-radius:20px;
+  width:15%;
+  height:10%;
+  transition-duration: 0.4s;
+  min-width:200px;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+#button2:hover{
+  background-color:white;
+  color:grey;
+}
+#button3{
+  background-color:grey;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-right:5px;
+    border-radius:20px;
+  width:15%;
+  height:10%;
+   transition-duration: 0.4s;
+  min-width:200px;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+#button3:hover{
+  background-color:white;
+  color:grey;
+}
+#button4{
+  border-style:none;
+  background-color: grey;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-right:5px;
+    border-radius:20px;
+  width:15%;
+  height:10%;
+   transition-duration: 0.4s;
+  min-width:200px;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+#button4:hover{
+  background-color:white;
+  color:grey;
+}
+#buttonN{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  margin-right:5px;
+  float:right;
+  border-radius:20px;
+   width:25%;
+ min-width:100px;
+    transition-duration: 0.4s;
+  font-family:"Lucida Console", "Courier New", monospace;
+  
+}
+#buttonP{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  margin-right:1%;
+    border-radius:20px;
+  width:25%;
+    transition-duration: 0.4s;
+ min-width:100px;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+#buttonP:hover{
+  background-color:White;
+  color: green;
+}
+#buttonN:hover{
+  background-color:White;
+  color: green;
+}
+@media (max-width:500px){
+ img{
+   width: 200px; 
+   height: 200px; 
+ }
+}

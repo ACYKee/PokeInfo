@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/ball.png" />
+
+    <title>PokeInfo</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+    <link rel="manifest" href="manifest.json" />
+<!-- ios support -->
+
+<link rel="apple-touch-icon" href="icons/icon-192x192.png" />
+<link rel="apple-touch-icon" href="icons/icon-256x256.png" />
+<link rel="apple-touch-icon" href="icons/icon-384x384.png" />
+<link rel="apple-touch-icon" href="icons/icon-512x512.png" />
+<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+<meta name="theme-color" content="#db4938" />
+  </head>
+  <body>
+<div class="wrapper">
+  
+    
+    <h1>
+      PokeInfo
+    </h1>
+    <input type="text" id="search" placeholder="Search For A Pokemon Name or Id...">
+  <br>
+    <div class="buttons">
+      <br>
+    <button id="button" onclick="fetchData()">Look Up Pokemon</button>
+    <button id="button2" onclick="randomGen1()">random gen1</button>
+     <button id="button3" onclick="randomPoke()">random Pokemon</button>
+    <button id="button4" onclick="randomHorsePoke()">horse Pokemon</button>
+      <br><br>
+ 
+    
+    </div>
+         
+ 
+      
+     <div id = "info">
+            <button id="buttonP" onclick="prePoke()">Previous Pokemon</button>
+         <button id="buttonN" onclick="nextPoke()">Next Pokemon</button>
+     <p id="name"></p>
+       <div id = "big"></div>
+    <h2>Type:</h2><p id="type"></p><br>
+       <p id="text"></p><br>
+    <h2>Evolution Chain:</h2><p id="evo"></p>
+    <h2>location of Encounters:</h2><ul id="loca"></ul>
+     <h2>Possible Moves:</h2><ul id="moves"></ul>
+  </div>
+ 
+    
+    
+   </div>
+  </body>
+    
+</html>
